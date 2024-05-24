@@ -2,18 +2,88 @@
 
 <html>
   <head>
-    <title>Go away</title>
+    <title>Profile</title>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, user-scalable=no" />
     <style>
-      /* You can put any CSS styles here */
+      body {
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+        margin: 0;
+      }
+      main {
+        padding: 150px;
+      }
       img {
         max-width: 100%;
+        width: 100px;
+      }
+      footer {
+        font-size: 10px;
+        margin: 5em auto;
+      }
+      img.profile {
+        height: 300px;
+        width: 300px;
+      }
+      img.item {
+        height: 100px;
+        width: auto;
       }
     </style>
   </head>
   <body>
-    <!-- You can put your HTML here -->
-    You're not supposed to be here
+    <!-- This page has been inspired by https://tosic.com -->
+    <main>
+      <img
+        src="images/energy.png"
+        class="profile"
+        alt="a light green and yellow glowing sphere"
+      />
+
+      <br /><br /><br />
+
+      <b>Favorite Fruit</b><br />
+      🥭
+
+      <br /><br />
+
+      <b>Four Things in My Bag</b><br />
+      <img
+        src="images/stringtheory.jpg"
+        class="item"
+        alt="String Theory by David Foster Wallace"
+      />
+      <img
+        src="images/yeti.jpg"
+        class="item"
+        alt="a 532ml Yeti water bottle in a stainless steel finish"
+      />
+      <img 
+        src="images/mujipen.jpg" 
+        class="item" 
+        alt="a black 0.38mm Muji gell ink ballpoint pen" />
+      <a href="https://uk.muji.eu/products/gel-ink-ballpoint-pen-0-38mm-11044">
+        <img
+          src="images/rhodia.jpg"
+          class="item"
+          alt="an orange Rhodia webnotebook"
+        />
+      </a>
+
+      <br /><br />
+
+      <b>My Manifesto</b><br />
+
+      1 — have fun!<br />
+      2 — see 1<br />
+      
+      <br /><br />
+
+      <b>BAN Web Experiments</b><br />
+      <a href="https://banweblearning.net/demo1/index.html">One</a><br />
+      <a href="https://banweblearning.net/demo2/index.html">Two</a><br />
+      <a href="https://banweblearning.net/demo3/index.html">Three</a>
+    </main>
   </body>
 </html>
